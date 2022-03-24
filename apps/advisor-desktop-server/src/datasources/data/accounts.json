@@ -1,0 +1,58 @@
+[
+  {
+    "id": "paul-silva-12552",
+    "name": "Traditional IRA",
+    "accountNumber": "XXX-12552",
+    "imageId": "retirement",
+    "ownerId": "paul-silva",
+    "portfolioId": "paul-silva-retirement-portfolio"
+  },
+  {
+    "id": "paul-silva-28742",
+    "name": "Traditional IRA",
+    "accountNumber": "XXX-28742",
+    "imageId": "jointAccount",
+    "ownerId": "paul-silva",
+    "portfolioId": "paul-silva-retirement-portfolio"
+  },
+  {
+    "id": "paul-silva-87424",
+    "name": "Roth IRA",
+    "accountNumber": "XXX-87424",
+    "imageId": "savings",
+    "ownerId": "paul-silva",
+    "portfolioId": "paul-silva-retirement-portfolio"
+  },
+  {
+    "id": "ashley-silva-73215",
+    "name": "Joint Brokerage",
+    "accountNumber": "XXX-73215",
+    "imageId": "wedding",
+    "ownerId": "paul-silva",
+    "portfolioId": "paul-silva-retirement-portfolio"
+  },
+  {
+    "id": "trevor-smith-34433",
+    "name": "Traditional IRA",
+    "accountNumber": "XXX-34433",
+    "imageId": "retirement",
+    "ownerId": "trevor-smith",
+    "portfolioId": "trevor-smith-retirement-portfolio"
+  },
+  {
+    "id": "danielle-clark-20201",
+    "name": "Traditional IRA",
+    "accountNumber": "XXX-20201",
+    "imageId": "jointAccount",
+    "ownerId": "danielle-clark",
+    "portfolioId": "danielle-clark-retirement-portfolio"
+  },
+  {
+    "id": "isa-armstrong-55151",
+    "name": "Roth IRA",
+    "accountNumber": "XXX-55151",
+    "imageId": "wedding",
+    "ownerId": "isa-armstrong",
+    "portfolioId": "isa-armstrong-retirement-portfolio"
+  }
+]

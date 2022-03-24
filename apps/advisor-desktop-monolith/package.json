@@ -1,0 +1,27 @@
+{
+  "name": "advisor-desktop-monolith",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Naresh Bhatia",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write README.md 'src/**/*.ts'",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.42",
+    "@types/react-dom": "^17.0.14",
+    "@vitejs/plugin-react": "^1.2.0",
+    "tsconfig": "*",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6"
+  }
+}

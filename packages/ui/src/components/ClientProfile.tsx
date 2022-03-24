@@ -22,7 +22,6 @@ export function ClientProfile({ client }: ClientProfileProps) {
         p: 1,
         display: 'flex',
         alignItems: 'center',
-        backgroundColor: 'background.paper',
       }}
     >
       <Box sx={{ p: 1 }}>

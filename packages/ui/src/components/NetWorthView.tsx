@@ -19,7 +19,7 @@ export function NetWorthView({
   cashBalance,
 }: NetWorthViewProps) {
   return (
-    <Box sx={{ p: 2, display: 'flex', backgroundColor: 'background.paper' }}>
+    <Box sx={{ p: 2, display: 'flex' }}>
       <Box>
         <LabelValue label="Net Worth" value={investmentTotal + cashBalance} />
       </Box>

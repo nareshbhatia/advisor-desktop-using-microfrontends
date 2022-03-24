@@ -28,7 +28,7 @@ interface AccountListProps {
 
 export function AccountList({ accounts, onClick }: AccountListProps) {
   return (
-    <Box sx={{ p: 2, height: '100%', backgroundColor: 'background.paper' }}>
+    <Box sx={{ p: 2, height: '100%' }}>
       <Typography variant="h6" component="h2" sx={{ fontSize: '1rem' }}>
         Accounts
       </Typography>

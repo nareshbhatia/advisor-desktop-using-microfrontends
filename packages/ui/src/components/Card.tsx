@@ -14,6 +14,7 @@ export const Card: React.FC = ({ children }) => {
         boxShadow,
         border,
         borderRadius: '0.5rem',
+        backgroundColor: 'background.paper',
       }}
     >
       {children}

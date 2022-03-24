@@ -19,7 +19,7 @@ export function ClientList({
   onClick,
 }: ClientListProps) {
   return (
-    <List sx={{ width: '100%', bgcolor: 'background.paper' }}>
+    <List sx={{ width: '100%' }}>
       {clients.map((client) => {
         const { id, name, photo } = client;
         return (

@@ -1,6 +1,7 @@
 import * as React from 'react';
 export * from './src/components/AccountList';
 export * from './src/components/AssetAllocationChart';
+export * from './src/components/Card';
 export * from './src/components/ClientList';
 export * from './src/components/ClientProfile';
 export * from './src/components/Header';

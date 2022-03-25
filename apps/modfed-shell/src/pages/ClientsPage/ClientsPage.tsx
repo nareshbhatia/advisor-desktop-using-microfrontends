@@ -10,7 +10,7 @@ const drawerWidth = 240;
 export function ClientsPage() {
   return (
     <Box sx={{ display: 'flex' }}>
-      <Header title="Advisor Desktop" />
+      <Header title="Advisor Desktop (Module Federation)" />
       <Drawer
         variant="permanent"
         sx={{

@@ -24,7 +24,7 @@ export function App() {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <Header title="Advisor Desktop" />
+      <Header title="Advisor Desktop (Monolith)" />
       <Drawer
         variant="permanent"
         sx={{

@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { gql, useQuery } from '@apollo/client';
+import { SelectClientMessage, useClientContext } from 'ui-common';
 import { ClientProfile } from '../components/ClientProfile';
-import { SelectClientMessage } from '../components/SelectClientMessage';
-import { useClientContext } from '../contexts/ClientContext';
 
 const GetClient = gql`
   query GetClient($clientId: ID!) {

@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Toolbar from '@mui/material/Toolbar';
 import { Outlet } from 'react-router-dom';
-import { Header } from 'ui';
+import { Header } from 'ui-common';
 
 const drawerWidth = 240;
 

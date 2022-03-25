@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
-import { Card } from 'ui';
+import { Card } from 'ui-common';
 
 export function ClientDashboard() {
   return (

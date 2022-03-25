@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { gql, useQuery } from '@apollo/client';
+import { useClientContext } from 'ui-common';
 import { ClientList } from '../components/ClientList';
-import { useClientContext } from '../contexts/ClientContext';
 
 const GetClients = gql`
   query GetClients {

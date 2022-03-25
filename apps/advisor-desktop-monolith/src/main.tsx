@@ -4,7 +4,7 @@ import { ApolloProvider } from '@apollo/client';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { createApolloClient } from 'graphql-utils';
-import { ClientContextProvider, setChartOptions, theme } from 'ui';
+import { ClientContextProvider, setChartOptions, theme } from 'ui-common';
 import { App } from './App';
 
 // Initialize charts

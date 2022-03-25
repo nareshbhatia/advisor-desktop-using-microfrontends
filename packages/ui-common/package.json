@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "ui-common",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -10,7 +10,7 @@
     "dev": "tsup index.tsx --format esm,cjs --watch --dts --external react",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@apollo/client": "^3.5.10",
     "@emotion/cache": "^11.7.1",
     "@emotion/react": "^11.8.2",

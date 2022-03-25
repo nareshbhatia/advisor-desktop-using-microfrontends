@@ -3,19 +3,18 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Grid from '@mui/material/Grid';
 import Toolbar from '@mui/material/Toolbar';
+import { ClientListContainer, ClientProfileContainer } from 'ui-clients';
 import {
   Card,
   ClientAccountsContainer,
   ClientAssetAllocationChartContainer,
   ClientInsightsContainer,
-  ClientListContainer,
   ClientNetWorthContainer,
   ClientPerformanceChartContainer,
-  ClientProfileContainer,
   Header,
   SelectClientMessage,
   useClientContext,
-} from 'ui';
+} from 'ui-common';
 
 const drawerWidth = 240;
 

@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ClientContextProvider, SelectClientMessage, theme } from 'ui';
+import { ClientContextProvider, SelectClientMessage, theme } from 'ui-common';
 import { ClientDashboard, ClientsPage, HomePage, NotFoundPage } from './pages';
 
 function App() {

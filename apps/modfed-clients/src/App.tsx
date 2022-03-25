@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { theme } from 'ui';
+import { theme } from 'ui-common';
 import { HomePage, NotFoundPage } from './pages';
 
 function App() {

@@ -14,7 +14,7 @@ export * from './src/components/SelectClientMessage';
 export * from './src/containers/ClientAccountsContainer';
 export * from './src/containers/ClientAssetAllocationChartContainer';
 export * from './src/containers/ClientInsightsContainer';
-export * from './src/containers/ClientListSidebarContainer';
+export * from './src/containers/ClientListContainer';
 export * from './src/containers/ClientNetWorthContainer';
 export * from './src/containers/ClientPerformanceChartContainer';
 export * from './src/containers/ClientProfileContainer';
